@@ -1,0 +1,27 @@
+
+# Ruby
+.bundle/
+vendor/bundle/
+*.gem
+
+# Saved game data
+saved_games/*.json
+!saved_games/.gitkeep
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
